@@ -1,41 +1,41 @@
 [
   {
-    "patient_id": 1,
+    "patient_id": "1",
     "address": "123 Main St",
     "city": "Springfield",
     "postal_code": "12345",
     "country": "USA"
   },
   {
-    "patient_id": 1,
+    "patient_id": "1",
     "address": "124 Main St Apt 2",
     "city": "Springfield",
     "postal_code": "12345",
     "country": "USA"
   },
   {
-    "patient_id": 3,
+    "patient_id": "3",
     "address": "789 Pine Rd",
     "city": "Fairview",
     "postal_code": "54321",
     "country": "USA"
   },
   {
-    "patient_id": 4,
+    "patient_id": "4",
     "address": "321 Maple Dr",
     "city": "Riverside",
     "postal_code": "98765",
     "country": "USA"
   },
   {
-    "patient_id": 4,
+    "patient_id": "4",
     "address": "322 Maple Dr",
     "city": "Riverside",
     "postal_code": "98765",
     "country": "USA"
   },
   {
-    "patient_id": 4,
+    "patient_id": "4",
     "address": "323 Maple Dr Apt B",
     "city": "Riverside",
     "postal_code": "98765",

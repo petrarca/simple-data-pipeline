@@ -1,10 +1,10 @@
 [
   {
-    "patient_id": 1,
+    "patient_id": "1",
     "cave": "Penicillin allergy"
   },
   {
-    "patient_id": 3,
+    "patient_id": "3",
     "cave": "Latex allergy"
   }
 ]

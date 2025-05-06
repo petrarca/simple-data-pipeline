@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": "1",
     "name": "Alice",
     "surname": "Smith",
     "dob": "1985-04-12",
@@ -9,7 +9,7 @@
     "gender": 2
   },
   {
-    "id": 2,
+    "id": "2",
     "name": "Bob",
     "surname": "Johnson",
     "dob": "1990-07-23",
@@ -18,7 +18,7 @@
     "gender": 1
   },
   {
-    "id": 3,
+    "id": "3",
     "name": "Clara",
     "surname": "Williams",
     "dob": "1978-11-02",
@@ -27,7 +27,7 @@
     "gender": 2
   },
   {
-    "id": 4,
+    "id": "4",
     "name": "David",
     "surname": "Brown",
     "dob": "2002-01-30",
