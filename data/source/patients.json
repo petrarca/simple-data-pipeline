@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Alice",
+    "surname": "Smith",
+    "dob": "1985-04-12",
+    "email": "alice.smith@example.com",
+    "phone": "+1-555-123-4567",
+    "gender": 2
+  },
+  {
+    "id": 2,
+    "name": "Bob",
+    "surname": "Johnson",
+    "dob": "1990-07-23",
+    "email": "bob.johnson@example.com",
+    "phone": "+1-555-234-5678",
+    "gender": 1
+  },
+  {
+    "id": 3,
+    "name": "Clara",
+    "surname": "Williams",
+    "dob": "1978-11-02",
+    "email": "clara.williams@example.com",
+    "phone": "+1-555-345-6789",
+    "gender": 2
+  },
+  {
+    "id": 4,
+    "name": "David",
+    "surname": "Brown",
+    "dob": "2002-01-30",
+    "email": "david.brown@example.com",
+    "phone": "+1-555-456-7890",
+    "gender": 1
+  }
+]

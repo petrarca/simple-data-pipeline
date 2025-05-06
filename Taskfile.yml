@@ -1,0 +1,42 @@
+version: '3'
+tasks:
+  venv:
+    desc: Create a virtual environment using uv
+    cmds:
+      - uv venv .venv
+  install:
+    desc: Install dependencies using uv
+    deps: [venv]
+    cmds:
+      - uv pip install -e ".[dev]"
+
+  check:
+    desc: Run ruff linter
+    cmds:
+      - .venv/bin/python -m ruff check src --fix
+
+  format:
+    desc: Format code using ruff
+    cmds:
+      - .venv/bin/python -m ruff format src
+
+  clean:
+    desc: Clean build and cache files
+    cmds:
+      - rm -rf .venv __pycache__ .pytest_cache dist build *.egg-info
+
+  import-to-raw:
+    desc: Convert JSON data from source to raw Parquet format
+    cmds:
+      - .venv/bin/python src/app/run_pipeline.py --raw
+
+  convert-to-target:
+    desc: Transform raw Parquet data to target format
+    cmds:
+      - .venv/bin/python src/app/run_pipeline.py --target
+
+  run-pipeline:
+    desc: Run the complete data pipeline (import and convert)
+    cmds:
+      - task: import-to-raw
+      - task: convert-to-target
